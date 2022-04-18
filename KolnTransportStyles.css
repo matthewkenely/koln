@@ -1,0 +1,30 @@
+#roads_img, #cycling_img, #rail_img {
+    width: 40%;
+    float: right;
+    border: 2px solid #212121;
+    margin-left: 20px;
+    margin-right: 1%;
+    margin-bottom: 0px;
+    box-shadow: 5px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#roads_img:hover, #cycling_img:hover, #rail_img:hover {
+    animation: bounceup 0.8s normal ease-out;
+}
+
+@keyframes bounceup {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    10% {
+        transform: translateY(-10px);
+    }
+}
+
+.textsection {
+    width: 100%;
+    overflow: auto;
+}
